@@ -1,0 +1,25 @@
+UTILIZING THE COMMAND PROMPT, YOU CAN PERFORM THE FOLLOWING STEPS TO INSTALL PYTHON ON WINDOWS 11:
+
+INSTALL PYTHON: 
+ Download the most recent version of Python for Windows by visiting the official Python website at https://www.python.org/downloads/. 
+ If your version of Windows is 64-bit, pick the 64-bit option; otherwise, pick the 32-bit option.
+
+Open the command prompt by pressing the Windows key + R to bring up the Run dialog box, 
+ then type "cmd" and hit the Enter key.
+
+Navigate to the Python File You Downloaded: Use the "cd" command to go to the Python file's download directory. 
+ You can type "cd Downloads" to go to that directory, for instance, if you downloaded the file to your Downloads folder.
+
+Run the Python Installer: To launch the installer, 
+ enter the name of the Python installation file. For instance, 
+ you can type "python-3.10.2-amd64.exe" and press Enter if you downloaded the "python-3.10.2-amd64.exe" file.
+
+The Python installer will launch and walk you through the installation procedure; 
+ just follow the prompts. To select the installation directory, choose the components to install, 
+ and configure any options, simply follow the prompts.
+
+Verify the Installation: 
+ Once the installation is complete, start the Python interpreter by typing "python" at the command prompt. 
+ This will show that Python is installed. The Python version number and the prompt ">>>" should appear if Python was correctly installed.
+
+I'M DONE NOW! NOW THAT PYTHON SHOULD BE INSTALLED ON YOUR WINDOWS 11 COMPUTER, YOU SHOULD BE ABLE TO BEGIN WRITING PYTHON CODE.

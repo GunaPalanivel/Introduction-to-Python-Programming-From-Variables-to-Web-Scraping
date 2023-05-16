@@ -1,0 +1,25 @@
+YOU WILL NEED A FEW PREREQUISITES IN ORDER TO LEARN PROGRAMMING IN GENERAL, INCLUDING PYTHON. HERE ARE SOME CRUCIAL POINTS:
+
+
+You must have access to a computer or laptop in order to write and execute code.
+ Any current computer should function properly, though 4 GB of RAM is the recommended minimum.
+
+Operating system: 
+ Python is compatible with Windows, macOS, and Linux, among other operating systems. You can decide on the option that best suits your needs.
+
+Installation of Python: 
+ You must set up Python on your computer. The official Python website offers a free download of the most recent version.
+
+You will require a software program to write and edit your Python code, known as a code editor or an Integrated Development Environment
+(IDE). 
+ Included in the selection of free IDEs and code editors are Visual Studio Code, PyCharm, and Sublime Text.
+
+Internet access is necessary for learning and exploring Python resources, 
+ such as online tutorials, reference materials, and examples.
+
+Resources for learning: 
+ There are numerous online tutorials, videos, online classes, and books that can be used to learn Python. 
+ Find the ones that suit your learning preferences and objectives best.
+
+
+SUCCESS IN PROGRAMMING ALSO DEPENDS ON HAVING A CURIOUS MINDSET, BEING PERSISTENT, AND BEING OPEN TO TRYING NEW THINGS AND MAKING MISTAKES.
