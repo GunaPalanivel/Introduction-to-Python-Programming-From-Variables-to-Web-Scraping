@@ -1101,4 +1101,3 @@ print(var[5:25])
 
 var = "python"
 len(var)
-
