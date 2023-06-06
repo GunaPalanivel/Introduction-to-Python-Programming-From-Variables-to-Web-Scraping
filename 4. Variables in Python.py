@@ -5,17 +5,12 @@
 
 
 #WHAT DO VARIABLES MEAN? 
-
-
 #Variables are entities of a program that hold a value like X=200.
-
 #To understand this better 
- #[ The box is holding a value. A variable would be the name given to the box]
-
-#X would be the variable name and 200 would be the value of the variable.
-
-#As we'll go through the various topics here, 
- #you'll have the better understanding why we use and how to use them.
+# - [ The box is holding a value. A variable would be the name given to the box]
+# - X would be the variable name and 200 would be the value of the variable.
+# - As we'll go through the various topics here, 
+#you'll have a better understanding of why we use them and how to use them.
 
     
 #VARIOUS DATA TYPES OF VARIABLES. 
@@ -23,149 +18,163 @@
 
 
 #WHAT DO DATA TYPES MEAN?  
-
-
-#The type of value that you assign to the variables.
-
-#There are two types of numbers Integers and Float.
-
-#Integers means numbers without a decimal point.
-
-#Float means numbers with a decimal point.
-
-#Other than this a Common data type is String. 
-
-#Sting means a collection of characters [any words]
+# - The type of value that you assign to the variables.
+# - There are two types of numbers Integers and Float.
+# - Integers mean numbers without a decimal point.
+# - Float means numbers with a decimal point.
+# - Other than this a Common data type is String. 
+# - Sting means a collection of characters [any words]
 
 
 # In[2]:
 
 
 #In this code snippet, 
- #we declare a variable X and assign it the value of 100.
+# - we declare a variable X and assign it the value of 100.
     
-#The next line of code type(X) is used to determine the type of X. 
- #In this case, X is an integer, so running this line of code will output <class 'int'>.
+# - The next line of code type(X) is used to determine the type of X.
+ 
+# - In this case, X is an integer, so running this line of code will output <class 'int'>.
 
-#The type() function is a built-in Python function that returns the type of the object passed to it.
+# - The type() function is a built-in Python function that returns the type of the object passed to it.
 
-#In this case, we passed the variable X to the type() function, 
- #and it returned the type of X, which is int.
+# - In this case, we passed the variable X to the type() function, 
+#and it returned the type of X, which is int.
 
-#This code is a simple example of how to use Python variables and the type() function to determine the type of a variable.
+# - This code is a simple example of how to use Python variables and the type() function to 
+#determine the type of a variable.
 
-#By assigning a value to a variable, we can store data in memory and manipulate it in our code.
+# - By assigning a value to a variable, we can store data in memory and manipulate it in our code.
 
-#The type() function is a useful tool for debugging and verifying the type of data in our code.
+#- The type() function is a useful tool for debugging and verifying the type of data in our code.
 
 
+# Code Snippet 1:
 X = 200
-type(X)
+print(type(X))
+# Output: <class 'int'>
 
 
 # In[3]:
 
 
-#We declare a variable X and assign it the result of the arithmetic operation 648*789. 
- #When this line of code is executed, Python multiplies 648 and 789, and assigns the result to X. 
-   #In this case, X has a value of 512472.
+# - We declare a variable X and assign it the result of the arithmetic operation 648*789.
+ 
+# - When this line of code is executed, Python multiplies 648 and 789, and assigns the result to X. 
+#In this case, X has a value of 512472.
 
-#The next line of code type(X) is used to determine the type of X. In this case, X is an integer, 
- #so running this line of code will output <class 'int'>.
+# - The next line of code type(X) is used to determine the type of X. In this case, X is an integer, 
+#so running this line of code will output <class 'int'>.
 
-#The type() function is a built-in Python function that returns the type of the object passed to it. In this case, 
- #we passed the variable X to the type() function, and it returned the type of X, which is int.
+# - The type() function is a built-in Python function that returns the type of the object passed to it. In this case, we passed the variable X to the type() function, and it returned the type of X, which is int.
 
-
-X = 648*789
-type(X)
+# Code Snippet 2:
+X = 648 * 789
+print(type(X))
+# Output: <class 'int'>
 
 
 # In[4]:
 
 
-#We declare a variable X and assign it the result of the arithmetic operation 648*789. When this line of code is executed, 
- #Python multiplies 648 and 789, and assigns the result to X. In this case, X has a value of 512472.
+# - We declare a variable X and assign it the result of the arithmetic operation 648*789. When this line of code is executed, 
+#Python multiplies 648 and 789 and assigns the result to X. In this case, X has a value of 512472.
 
-#The print() function is then used to output the value of X to the console. When this line of code is executed, 
- #Python prints the value of X to the console, which in this case is 512472.
+# - The print() function is then used to output the value of X to the console. When this line of code is executed, 
+#Python prints the value of X to the console, which in this case is 512472.
 
 
-X = 648*789
+# Code Snippet 3:
+X = 648 * 789
 print(X)
+# Output: 512472
 
 
 # In[5]:
 
 
-#we declare a variable X and assign it the value 3.254. This value is a decimal or a floating-point number. 
- #When this line of code is executed, Python assigns the value 3.254 to X.
+# - we declare a variable X and assign it the value 3.254. This value is a decimal or a floating-point number. 
+#When this line of code is executed, Python assigns the value 3.254 to X.
 
-#The next line of code type(X) is used to determine the type of X. In this case, X is a floating-point number, 
- #so running this line of code will output <class 'float'>.
+# - The next line of code type(X) is used to determine the type of X. In this case, X is a floating-point number, 
+#so running this line of code will output <class 'float'>.
 
-#The type() function is a built-in Python function that returns the type of the object passed to it. 
- #In this case, we passed the variable X to the type() function, and it returned the type of X, which is float.
+# - The type() function is a built-in Python function that returns the type of the object passed to it. 
+#In this case, we passed the variable X to the type() function, and it returned the type of X, which is float.
 
 
+# Code Snippet 4:
 X = 3.254
-type(X)
+print(type(X))
+# Output: <class 'float'>
 
 
 # In[6]:
 
 
-#We declare a variable X and assign it the string value "Python". 
- #The print() function is then used to output the value of X to the console. When this line of code is executed, 
-   #the string "Python" will be printed to the console.
+# - We declare a variable X and assign it the string value "Python". 
 
-#In Python, we can use single or double quotes to create string literals. In this case, we used double quotes, 
- #but single quotes would also work. The print() function is a built-in Python function that outputs data to the console. 
-   #When we pass the variable X as an argument to print(), it will output the value of X to the console.
+# - The print() function is then used to output the value of X to the console. When this line of code is executed, 
+#the string "Python" will be printed to the console.
+
+# - In Python, we can use single or double quotes to create string literals. In this case, we used double quotes, 
+#but single quotes would also work. The print() function is a built-in Python function that outputs data to the console. 
+
+# - When we pass the variable X as an argument to print(), it will output the value of X to the console.
 
 
+# Code Snippet 5:
 X = "Python"
 print(X)
+# Output: Python
 
 
 # In[7]:
 
 
-#In the first line of code, we declare a variable X and assign it a string value of "Python" using double quotes. 
- #Double quotes and single quotes are both used to declare string literals in Python, 
-    #and in this case, the string is enclosed in double quotes.
+# - In the first line of code, we declare a variable X and assign it a string value of "Python" using double quotes. 
 
-#In the second line of code, we declare a variable X and assign it a string value of "Python" using single quotes. 
- #Again, single quotes and double quotes can be used interchangeably to declare strings in Python.
+# - Double quotes and single quotes are both used to declare string literals in Python, 
+#and in this case, the string is enclosed in double quotes.
 
-#The third line of code print(X) is used to print the value of X to the console. 
- #Since the value of X is the same in both lines of code, 
-    #running this line of code after either line will output the string "Python".
+# - In the second line of code, we declare a variable X and assign it a string value of "Python" using single quotes. 
 
-#The type(X) function is used in the first line of code to determine the type of X. In this case, X is a string, 
- #so running this line of code will output <class 'str'>.
+#Again, single quotes and double quotes can be used interchangeably to declare strings in Python.
 
-#The main difference between the two lines of code is the type of quotes used to enclose the string value. 
- #While both double quotes and single quotes can be used to declare strings in Python, 
-    #it's important to be consistent in your usage throughout your code.
+# - The third line of code print(X) is used to print the value of X to the console. 
+
+# - Since the value of X is the same in both lines of code, 
+#running this line of code after either line will output the string "Python".
+
+# - The type(X) function is used in the first line of code to determine the type of X. In this case, X is a string, 
+#so running this line of code will output <class 'str'>.
+
+# - The main difference between the two lines of code is the type of quotes used to enclose the string value. 
+
+# - While both double quotes and single quotes can be used to declare strings in Python, 
+#it's important to be consistent in your usage throughout your code.
 
 
+# Code Snippet 6:
 X = 'Python'
 print(X)
+# Output: Python
 
 
 # In[8]:
 
 
-#We declare a variable X and assign it a string value of "Python". When this line of code is executed, 
- #Python creates a string object with the value "Python", and assigns it to the variable X.
+# - We declare a variable X and assign it a string value of "Python". When this line of code is executed, 
+#Python creates a string object with the value "Python", and assigns it to the variable X.
 
-#The next line of code type(X) is used to determine the type of X. In this case, X is a string, 
- #so running this line of code will output <class 'str'>.
+# - The next line of code type(X) is used to determine the type of X. In this case, X is a string, 
+#so running this line of code will output <class 'str'>.
 
 
+# Code Snippet 7:
 X = "Python"
-type(X)
+print(type(X))
+# Output: <class 'str'>
 
 
 # In[9]:
