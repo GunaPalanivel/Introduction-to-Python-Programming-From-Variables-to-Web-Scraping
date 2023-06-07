@@ -180,22 +180,22 @@ print(type(X))
 # In[9]:
 
 
-#A tuple is an immutable series of components that is ordered in Python.
- #This implies that a tuple's contents cannot be modified once it has been constructed. 
-    #Tuples can include items of any data type, including other tuples, and are denoted by parenthesis ().
+# - A tuple is an immutable series of components that is ordered in Python.
+#This implies that a tuple's contents cannot be modified once it has been constructed. 
+#Tuples can include items of any data type, including other tuples, and are denoted by parenthesis ().
 
-#IN THAT THEY MAY HOLD NUMEROUS ELEMENTS, TUPLES AND LISTS ARE SIMILAR, BUT THERE ARE A FEW KEY DISTINCTIONS:
+# - IN THAT THEY MAY HOLD NUMEROUS ELEMENTS, TUPLES AND LISTS ARE SIMILAR, BUT THERE ARE A FEW KEY DISTINCTIONS:
 
-#Tuples are immutable, whereas lists are changeable, meaning that their contents can be altered after they are generated.
+# - Tuples are immutable, whereas lists are changeable, meaning that their contents can be altered after they are generated.
 
-#Square brackets [] are used to denote lists, and parentheses are used to denote tuples ().
+# - Square brackets [] are used to denote lists, and parentheses are used to denote tuples ().
 
-#Tuples are used when we need to keep a collection of objects that shouldn't be modified after they are generated, 
- #while lists are often used when we need to store a collection of items that can be modified over time.
+# -Tuples are used when we need to keep a collection of objects that shouldn't be modified after they are generated, 
+#while lists are often used when we need to store a collection of items that can be modified over time.
 
-#Ultimately, 
- #Python tuples can be a valuable tool for storing collections of data that shouldn't be modified after they are produced. 
-   #Writing efficient Python code requires a grasp of the distinctions between tuples and lists.
+# - Ultimately, 
+#Python tuples can be a valuable tool for storing collections of data that shouldn't be modified after they are produced. 
+#Writing efficient Python code requires a grasp of the distinctions between tuples and lists.
 
 
 # In[10]:
@@ -207,99 +207,111 @@ print(type(X))
 # In[11]:
 
 
-#A list is a type of data structure in Python that lets you store a group of elements. It is a changeable object, 
- #so after you construct the list, you can change, add, or remove elements. 
-    #Lists are made by enclosing the elements in square brackets [] and using commas to separate them.
+# - A list is a type of data structure in Python that lets you store a group of elements. It is a changeable object, 
+#so that after you construct the list, you can change, add, or remove elements. 
+#Lists are made by enclosing the elements in square brackets [] and using commas to separate them.
 
 
 # In[12]:
 
 
-#X is a variable that is declared, and we give it a list of three integer values, 
- #namely 18, 58, and 48. The list is defined by the square brackets [], and commas are used to separate the values.
+# - X is a variable that is declared, and we give it a list of three integer values, 
+#namely 18, 58, and 48. The list is defined by the square brackets [], and commas are used to separate the values.
 
-#The contents of X are then written to the console using the print() function. 
- #Python will show the list [18, 58, 48] in the console when this line of code is executed.
+# - The contents of X are then written to the console using the print() function. 
+#Python will show the list [18, 58, 48] in the console when this line of code is executed.
 
-#One of the most used data structures in Python is the list. 
- #They are employed to keep an assortment of values that can be accessed and changed in different ways.
+# - One of the most used data structures in Python is the list. 
+#They are employed to keep an assortment of values that can be accessed and changed in different ways.
 
-X = [18,58,48]
+
+# Code Snippet 8:
+X = [18, 58, 48]
 print(X)
+# Output: [18, 58, 48]
 
 
 # In[13]:
 
 
-#we declare a variable called X and give it a list of the three integer numbers 18, 58, and 48. 
- #An ordered group of variables is referred to as a list in Python.
+# - we declare a variable called X and give it a list of the three integer numbers 18, 58, and 48. 
+#An ordered group of variables is referred to as a list in Python.
 
-#To find out what type of X it is, use the type(X) command in the following line of code. 
- #The output of this piece of code, since X in this case is a list, is class 'list'>.
+# - To find out what type of X it is, use the type(X) command in the following line of code. 
+#The output of this piece of code, since X in this case is a list, is class 'list'>.
 
-#The type of the object it was supplied as a parameter is returned by the built-in Python method type(). 
- #In this instance, we used the type() method and supplied the variable X. Its type, which is list, was returned.
+# - The type of the object it was supplied as a parameter is returned by the built-in Python method type(). 
+#In this instance, we used the type() method and supplied the variable X. Its type, which is list, was returned.
 
 
-X = [18,58,48]
-type(X)
+# Code Snippet 9:
+X = [18, 58, 48]
+print(type(X))
+# Output: <class 'list'>
 
 
 # In[14]:
 
 
-#Declaring the variable X, we give it a list with the elements 18, 58, and 48 in it. 
- #The elements in the list are separated by commas and are enclosed in square brackets []. 
-    #Because it solely contains numbers, this kind of list is known as a numeric list.
+# - Declaring the variable X, we give it a list with the elements 18, 58, and 48 in it. 
+#The elements in the list are separated by commas and are enclosed in square brackets []. 
+#Because it solely contains numbers, this kind of list is known as a numeric list.
 
-#The first entry of the list X, which has an index of 0, is accessed in the following line of code print(X[0]). 
- #The first element of the list has an index of 0, the second element has an index of 1, 
-    #and so on since list indices in Python start at 0. With the print() function, 
-       #we can output the value of the list's first element's index to the console.
+# - The first entry of the list X, which has an index of 0, is accessed in the following line of code print(X[0]). 
+#The first element of the list has an index of 0, the second element has an index of 1, 
+#and so on since list indices in Python start at 0. With the print() function, 
+#we can output the value of the list's first element's index to the console.
 
-#In this instance, since 18 is the value of the list's first member, running this line of code will output 18 to the console.
+# - In this instance, since 18 is the value of the list's first member, running this line of code will output 18 to the console.
 
 
-X = [18,58,48]
+# Code Snippet 10:
+X = [18, 58, 48]
 print(X[0])
+# Output: 18
 
 
 # In[15]:
 
 
-#we create the list variable X and give it the array of numbers [18, 58, 48]. 
- #Python lists are used to hold collections of objects, 
-    #including texts, numbers, and other types of data.
+# - we create the list variable X and give it the array of numbers [18, 58, 48]. 
+#Python lists are used to hold collections of objects, 
+#including texts, numbers, and other types of data.
 
-#The third item in the list X, which has an index of 2, is printed in the next line of code, print(X[2]). 
- #The first item in the list has an index of 0 since list indexing in Python starts at 0, the second item has an index of 1, 
-    #and so on. We use an index of 2 because we want to publish the third item in the list.
+# - The third item in the list X, which has an index of 2, is printed in the next line of code, print(X[2]). 
+#The first item in the list has an index of 0 since list indexing in Python starts at 0, the second item has an index of 1, 
+#and so on. We use an index of 2 because we want to publish the third item in the list.
 
-#The value 48 is reported to the console when this line of code is run.
+# - The value 48 is reported to the console when this line of code is run.
 
-X = [18,58,48]
+
+# Code Snippet 11:
+X = [18, 58, 48]
 print(X[2])
+# Output: 48
 
 
 # In[16]:
 
 
-#Three integer values—18, 58, and 48—are created in the list X by this code. 
- #The values for the list are enclosed in square brackets and separated by commas.
+# - Three integer values—18, 58, and 48—are created in the list X by this code. 
+#The values for the list are enclosed in square brackets and separated by commas.
 
-#X[1] = 20 is the next line of code. the list's second member (located at index 1) now has the value 20. 
- #The second entry of the list has an index of 1, since list indices in Python begin at 0.
+# - X[1] = 20 is the next line of code. the list's second member (located at index 1) now has the value 20. 
+#The second entry of the list has an index of 1, since list indices in Python begin at 0.
 
-#Once the update has been made, the list's contents are shown using the print(X) function. The result will reveal that, 
- #although the other elements stay unchanged, the second element (located at index 1) has changed from 58 to 20.
+# - Once the update has been made, the list's contents are shown using the print(X) function. The result will reveal that, 
+#although the other elements stay unchanged, the second element (located at index 1) has changed from 58 to 20.
 
-#This code shows how to construct a list in Python, access and alter list elements, 
- #and display the list's contents using the print() function.
+# - This code shows how to construct a list in Python, access and alter list elements, 
+#and display the list's contents using the print() function.
 
 
-X = [18,58,48]
+# Code Snippet 12:
+X = [18, 58, 48]
 X[1] = 20
 print(X)
+# Output: [18, 20, 48]
 
 
 # In[17]:
@@ -311,43 +323,45 @@ print(X)
 # In[18]:
 
 
-#A tuple is an immutable series of components that is ordered in Python. 
- #This implies that a tuple's contents cannot be modified once it has been constructed. 
-    #Tuples can include items of any data type, including other tuples, and are denoted by parenthesis ().
+# - A tuple is an immutable series of components that is ordered in Python. 
+#This implies that a tuple's contents cannot be modified once it has been constructed. 
+#Tuples can include items of any data type, including other tuples, and are denoted by parenthesis ().
 
-#Tuples are more effective than lists at storing and accessing elements, which is one of their key advantages. 
- #This is because lists are stored in a fragmented block of memory that must be resized when elements are added or removed, 
-    #whereas tuples are maintained in a contiguous block of memory.
+# - Tuples are more effective than lists at storing and accessing elements, which is one of their key advantages. 
+#This is because lists are stored in a fragmented block of memory that must be resized when elements are added or removed, 
+#whereas tuples are maintained in a contiguous block of memory.
 
-#IN THAT THEY MAY HOLD NUMEROUS ELEMENTS, TUPLES AND LISTS ARE SIMILAR, BUT THERE ARE A FEW KEY DISTINCTIONS:
+# - IN THAT THEY MAY HOLD NUMEROUS ELEMENTS, TUPLES, AND LISTS ARE SIMILAR, BUT THERE ARE A FEW KEY DISTINCTIONS:
 
-#Tuples are immutable, whereas lists are changeable, meaning that their contents can be altered after they are generated.
+# - Tuples are immutable, whereas lists are changeable, meaning that their contents can be altered after they are generated.
 
-#Square brackets [] are used to denote lists, and parentheses are used to denote tuples ().
+# - Square brackets [] are used to denote lists, and parentheses are used to denote tuples ().
 
-#Tuples are used when we need to keep a collection of objects that shouldn't be modified after they are generated, 
- #while lists are often used when we need to store a collection of items that can be modified over time.
+# - Tuples are used when we need to keep a collection of objects that shouldn't be modified after they are generated, 
+#while lists are often used when we need to store a collection of items that can be modified over time.
 
-#Overall, Python's tuples feature can be beneficial for storing data sets that shouldn't be altered once they are produced.
+# - Overall, Python's tuples feature can be beneficial for storing data sets that shouldn't be altered once they are produced.
 
 
 # In[19]:
 
 
-#Declaring a variable called X, we assign it a tuple consisting of the numbers 2, 5, 8, and 6. 
- #A Python data structure called a tuple allows many values of various types to be stored in a single variable. 
-    #Tuples are immutable, thus once their values have been assigned, they cannot be modified.
+# - Declaring a variable called X, we assign it a tuple consisting of the numbers 2, 5, 8, and 6. 
+#A Python data structure called a tuple allows many values of various types to be stored in a single variable. 
+#Tuples are immutable, thus once their values have been assigned, they cannot be modified.
 
-#The contents of X are sent to the console using the next line of code, print(X). 
- #Python will output (2, 5, 8, 6) to the console when this line of code is run.
+# - The contents of X are sent to the console using the next line of code, print(X). 
+#Python will output (2, 5, 8, 6) to the console when this line of code is run.
 
-#This example explains how to use tuples in Python 
- #to store many values in a single variable by defining a variable and assigning it a tuple of values. 
-    #The tuple's contents are shown on the console using the print() function.
+# - This example explains how to use tuples in Python 
+#to store many values in a single variable by defining a variable and assigning it a tuple of values. 
+#The tuple's contents are shown on the console using the print() function.
 
 
-X = (2,5,8,6)
+# Code Snippet 13:
+X = (2, 5, 8, 6)
 print(X)
+# Output: (2, 5, 8, 6)
 
 
 # In[20]:
